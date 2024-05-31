@@ -5,6 +5,7 @@ export const GlobalContext = createContext(null);
 
 
 export default function GlobalState({children}){
+    
 
     const [searchParam, setSearchParam] = useState('')
     const [loading, setLoading] = useState(false)
