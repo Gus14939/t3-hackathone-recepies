@@ -14,7 +14,7 @@ export default function Home() {
         recipeList && recipeList.length > 0 
         ? recipeList.map((item, index) => <RecipeItem key={index} item={item}  />)
         : <div>
-          <p className='gl:text-4xl text-xl text-center text-black font-extrabold'>Nothing to show. Please search for a recipe</p>
+          <p className='gl:text-4xl text-xl text-center text-black font-extrabold'>Please search for a recipe</p>
         </div>
       }
     </div>
